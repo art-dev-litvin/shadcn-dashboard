@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SupportMe Dashboard
 
-## Getting Started
+SupportMe Dashboard is a comprehensive web application designed to manage and visualize employee and team data. It provides user authentication, a responsive design, and various statistics and charts to help you monitor and analyze your organization's performance.
 
-First, run the development server:
+## Main Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **User Authentication**: Login and sign-up pages for user authentication.
+- **Dashboard**: A comprehensive dashboard with statistics and charts for employees and teams.
+- **Responsive Design**: Mobile and desktop views with a responsive sidebar.
+- **Dark Mode**: Toggle between light and dark modes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Main Libraries
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: Framework for building the application.
+- **React**: Library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **React Hook Form**: Library for managing form state.
+- **Zod**: Schema declaration and validation library.
+- **Recharts**: Library for building charts.
+- **Radix UI**: Primitives for building accessible UI components.
+- **Lucide Icons**: Icon library.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Pages
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Landing Page**: [`app/(logged-out)/page.tsx`](app/(logged-out)/page.tsx)
+- **Login Page**: [`app/(logged-out)/login/page.tsx`](app/(logged-out)/login/page.tsx)
+- **Sign-Up Page**: [`app/(logged-out)/sign-up/page.tsx`](app/(logged-out)/sign-up/page.tsx)
+- **Dashboard**: [`app/dashboard/page.tsx`](app/dashboard/page.tsx)
+- **Employees**: [`app/dashboard/employees/page.tsx`](app/dashboard/employees/page.tsx)
+- **Teams**: [`app/dashboard/teams/page.tsx`](app/dashboard/teams/page.tsx)
+- **Account**: [`app/dashboard/account/page.tsx`](app/dashboard/account/page.tsx)
+- **Settings**: [`app/dashboard/settings/page.tsx`](app/dashboard/settings/page.tsx)
